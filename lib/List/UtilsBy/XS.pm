@@ -8,7 +8,7 @@ use XSLoader;
 
 use parent qw/Exporter/;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 our @EXPORT_OK = qw(
     sort_by
@@ -78,9 +78,9 @@ List::UtilsBy::XS implements following functions.
 
 =item rev_nsort_by
 
-=item max_by(alias nmax_by)
+=item max_by (alias nmax_by)
 
-=item min_by(alias nmin_by)
+=item min_by (alias nmin_by)
 
 =item uniq_by
 
