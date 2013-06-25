@@ -30,7 +30,7 @@ no_index:
 provides:
   List::UtilsBy::XS:
     file: lib/List/UtilsBy/XS.pm
-    version: 0.02
+    version: 0.03
 requires:
   XSLoader: 0.02
   parent: 0
@@ -39,4 +39,4 @@ resources:
   bugtracker: https://github.com/syohex/p5-List-Utils-By/issues
   homepage: https://github.com/syohex/p5-List-Utils-By
   repository: git://github.com/syohex/p5-List-Utils-By.git
-version: 0.02
+version: 0.03
